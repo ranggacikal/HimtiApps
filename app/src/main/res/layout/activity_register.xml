@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="REGISTER"
+            android:textColor="#FFA500"
+            android:textSize="40sp"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/edtUsernameRegister"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/background_username"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="15dp"
+            android:hint="Username"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:textColor="#FFA500"
+            android:inputType="text"/>
+
+        <EditText
+            android:id="@+id/edtNimRegister"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/background_username"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:hint="NIM"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:textColor="#FFA500"
+            android:inputType="number"/>
+
+        <EditText
+            android:id="@+id/edtEmailRegister"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/background_username"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:hint="E-Mail"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:textColor="#FFA500"
+            android:inputType="textEmailAddress"/>
+
+        <EditText
+            android:id="@+id/edtPasswordRegister"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/background_username"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:hint="Pasword"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:textColor="#FFA500"
+            android:inputType="textPassword"/>
+
+        <EditText
+            android:id="@+id/edtConfirmPasswordRegister"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/background_username"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:hint="Re-Pasword"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:textColor="#FFA500"
+            android:inputType="textPassword"/>
+
+        <Button
+            android:id="@+id/buttonRegister"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/background_button_login"
+            android:text="Register"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
