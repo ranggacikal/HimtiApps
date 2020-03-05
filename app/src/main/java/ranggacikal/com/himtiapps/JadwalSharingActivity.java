@@ -28,6 +28,8 @@ public class JadwalSharingActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_jadwal_sharing);
 
+        
+
         recyclerViewSharing = findViewById(R.id.rv_sharing);
 
         ApiService apiService = ConfigRetrofit.retrofit.create(ApiService.class);

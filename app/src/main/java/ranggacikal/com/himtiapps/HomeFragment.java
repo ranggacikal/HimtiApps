@@ -69,6 +69,21 @@ public class HomeFragment extends Fragment implements BaseSliderView.OnSliderCli
             }
         });
 
+        rl_agenda.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent Pindahagenda = new Intent(getActivity(), AgendaActivity.class);
+                startActivity(Pindahagenda);
+            }
+        });
+
+        rl_keanggotaan.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(context, "CLICKED", Toast.LENGTH_SHORT).show();
+            }
+        });
+
 
 
         return view;

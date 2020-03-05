@@ -1,5 +1,6 @@
 package ranggacikal.com.himtiapps.api;
 
+import ranggacikal.com.himtiapps.model.ResponseAgenda;
 import ranggacikal.com.himtiapps.model.ResponseJadwalSharing;
 import ranggacikal.com.himtiapps.model.ResponseLogin;
 import ranggacikal.com.himtiapps.model.ResponseRegister;
@@ -25,4 +26,7 @@ public interface ApiService {
 
     @GET("GetDataJadwalSharing")
     Call<ResponseJadwalSharing> tampilJadwalSharing();
+
+    @GET("GetDataAgenda")
+    Call<ResponseAgenda> tampilAgenda();
 }

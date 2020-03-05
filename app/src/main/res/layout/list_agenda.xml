@@ -6,8 +6,8 @@
     android:layout_height="wrap_content"
     app:cardCornerRadius="6dp"
     app:cardElevation="7dp"
-    android:layout_marginLeft="20dp"
-    android:layout_marginRight="20dp"
+    android:layout_marginLeft="25dp"
+    android:layout_marginRight="25dp"
     android:layout_marginTop="5dp"
     app:cardUseCompatPadding="true">
 
@@ -18,46 +18,53 @@
         android:orientation="vertical">
 
         <TextView
-            android:id="@+id/text_judul_sharing"
+            android:id="@+id/textNamaAgenda"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="JUDUL SHARING"
-            android:gravity="center"
-            android:textSize="25sp"
-            android:textColor="#000"
-            android:textStyle="bold"
             android:layout_marginTop="5dp"
-            android:layout_marginLeft="5dp"
-            android:layout_marginRight="5dp"/>
+            android:text="NAMA AGENDA"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:textSize="25sp"/>
 
         <ImageView
-            android:id="@+id/img_jadwal_sharing"
+            android:id="@+id/imageGambarAgenda"
             android:layout_width="match_parent"
             android:layout_height="200dp"
             android:layout_marginTop="10dp"/>
 
         <TextView
-            android:id="@+id/text_tanggal_sharing"
+            android:id="@+id/textTanggalAgenda"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:text="June 16 2020"
+            android:layout_marginTop="15dp"
             android:gravity="center"
-            android:text="01-januari-2020"
-            android:textColor="#000"
-            android:textStyle="bold"
-            android:textSize="35sp"
-            android:layout_marginTop="5dp"
-            android:layout_marginLeft="5dp"
-            android:layout_marginRight="5dp"/>
+            android:textColor="#000000"
+            android:textSize="35sp"/>
 
         <TextView
-            android:id="@+id/text_bahasa_pemrograman"
+            android:id="@+id/textTempatAgenda"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="WEB PROGRAMMING"
+            android:text="Auditorium UMT"
             android:gravity="center"
-            android:layout_marginTop="5dp"
-            android:layout_marginBottom="5dp"/>
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:textSize="15sp"/>
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Daftarkan Diri Anda Segera !"
+            android:gravity="center"
+            android:background="#FFA500"
+            android:textSize="25sp"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"/>
     </LinearLayout>
 
 </androidx.cardview.widget.CardView>
